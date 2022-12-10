@@ -1,0 +1,34 @@
+INSTRUCCIONS PER APARTATS
+1: 
+  a: git branch branca00
+  b: git checkout branca00
+  c: git status
+
+5: 
+  -git checkout main
+  -git status
+  -git log
+  -git diff --stage (error)
+  -git diff --head (error)
+
+7: git checkout branca00
+
+10b: git merge branca00
+
+12a: git push
+
+14a: git push origin branca01
+
+RESPOSTA A LES PREGUNTES
+6: No, degut a que els canvis a la línia 28 només es podran veure a la branca main si es fa un merge, 
+   d’altre manera només es podran veure des de la branca “branca00” que es en la cual s’ha fet el add 
+   i el commit dels cavis.
+
+7: Si, des de de la branca “branca00” es pot veure el fitxer modificat, degut a que ha sigut guardat 
+   dins del dipòsit local i s’ha fet un commit d’aquest a la branca.
+
+12c: Només s'ha actualitzat la branca main perque hem fet el push de la branca main  des de la 
+     branca main. La branca main ja conté tota la informació actualitzada i per tant només a 
+     la main ja es veuen tots els canvis realitzats.
+
+14c: Es troba només a un commit de distància.
